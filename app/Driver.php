@@ -22,7 +22,7 @@ class Driver
         echo 'Palindromes: ';
         $this->print($palindromes);
 
-        $password = $program->randomPassword($primeNumbers, 10);
+        $password = $program->randomPassword($primeNumbers, $K);
         echo 'Password: ' . $password;
     }
 
