@@ -53,7 +53,7 @@ class Program
     {
         $length = random_int(3, $K);
         $result = '';
-        while ($length !== 0)
+        while ($length !== 0 && $numbers)
         {
             $newNumbers = array_filter($numbers, function ($n) use ($length)
             {
